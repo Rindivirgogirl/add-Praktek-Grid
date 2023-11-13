@@ -1,0 +1,169 @@
+.nav{
+    background-color: #9A31CC;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #FFFFFF;
+   
+}
+
+.nav ul{
+    list-style: none;
+    gap: 100px;
+    display: flex;
+    
+}
+
+.nav ul li{
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D6F3FF;
+    position: relative;
+    height: 680px;
+}
+
+.page1 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.page1 .wrapper .kotak1{
+    width: 300px;
+    height: 300px;
+    background-color: #FFE600;
+    grid-column: 1/2;
+}
+
+.page1 .wrapper .kotak2{
+    width: 300px;
+    height: 300px;
+    background-color: #FFE600;
+    grid-column: 3/4;
+}
+
+.page2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE600;
+    position: relative;
+    height: 700px;
+   
+}
+
+.page2 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap:30px;
+}
+
+.page2 .wrapper .kotak1{
+    width: 329px;
+    height: 400px;
+    background-color: #FF0000;
+    grid-column: 1/2;
+}
+.page2 .wrapper .kotak2{
+    width: 329px;
+    height: 400px;
+    background-color: #FF0000;
+    grid-column: 2/3;
+}
+
+.page2 .wrapper .kotak3{
+    width: 329px;
+    height: 400px;
+    background-color: #FF0000;
+    grid-column: 3/4;
+}
+
+.page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A634C3;
+    position: relative;
+    height: 700px;
+}
+
+.page3 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+}
+
+.page3 .wrapper .kotak1{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.page3 .wrapper .kotak2{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.page3 .wrapper .kotak3{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 3/4 ;
+    grid-row: 1/2;
+}
+
+
+.page3 .wrapper .kotak4{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.page3 .wrapper .kotak5{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.page3 .wrapper .kotak6{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.page3 .wrapper .kotak7{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+
+.page3 .wrapper .kotak8{
+    width: 258px;
+    height: 246px;
+    background-color: #24FF00;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
